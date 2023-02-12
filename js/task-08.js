@@ -1,22 +1,3 @@
-// const formEl = document.querySelector(".login-form");
-// const inputsEls = formEl.querySelectorAll("input");
-// const buttonEl = formEl.lastElementChild;
-
-// formEl.addEventListener("submit", (event) => {
-//   event.preventDefault();
-
-// if (inputsEls[0].value === "" && inputsEls[1].value === "") {
-//   return alert("Введіть данні");
-// } else if (inputsEls[0].value === "") {
-//   return alert("Введіть email");
-// } else if (inputsEls[1].value === "") {
-//   return alert("Введіть password");
-// }
-
-//   console.log(`Email: ${inputsEls[0].value}, Password: ${inputsEls[1].value}`);
-//   event.currentTarget.reset();
-// });
-
 const formEl = document.querySelector(".login-form");
 
 function handleSubmit(event) {
